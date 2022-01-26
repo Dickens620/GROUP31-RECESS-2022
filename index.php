@@ -44,9 +44,14 @@ if(isset($_POST['email'])){
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Login - SB Admin</title>
+        <title>Login - KCPMS Admin</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-image: url('Imgs/login.png');
+        }
+    </style>
     </head>
     <body class="bg-primary">
         <div id="layoutAuthentication">
@@ -57,7 +62,8 @@ if(isset($_POST['email'])){
                             <div class="col-lg-5">
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
                                     <div class="card-header">
-                                        <h3 class="text-center font-weight-light my-4">Login</h3>
+                                        <h3 class="text-center font-weight-light my-4">KINDERCARE PUPIL MANAGEMENT SYSTEM</h3>
+                                        <!-- <h4 class="text-center font-weight-light my-4">login</h4> -->
                                         <h4><?=$message?></h4>
                                     </div>
                                     <div class="card-body">
@@ -93,12 +99,11 @@ if(isset($_POST['email'])){
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2021</div>
-                            <div>
-                                <a href="#">Privacy Policy</a>
-                                &middot;
-                                <a href="#">Terms &amp; Conditions</a>
-                            </div>
+                        <div class="text-muted">GROUP 31 RECESS 2022</div>
+                        <div>
+                            <a href="#">Pupil system</a> &middot;
+                            <a href="#">KCPMS</a>
+                        </div>
                         </div>
                     </div>
                 </footer>
