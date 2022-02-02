@@ -49,7 +49,7 @@ if(isset($_POST['email'])){
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     <style>
         body{
-            background-image: url('Imgs/login.png');
+            background-image: url('Imgs/header.png');
         }
     </style>
     </head>
